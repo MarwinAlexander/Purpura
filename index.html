@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #a2cadf;
+  font-family: 'Copperplate',Fantasy;
+}
+
+header {
+  background: #51d1f6;
+  width: 100%;
+  right: 50%;
+  clear: both;
+  content:'';
+  display: flex;
+}
+
+.menu {
+  right: 100%;
+  width: 200px;
+  margin: flex;
+}
+
+img {
+  width: 100px;
+  height: 20px;
+  float: left;
+  padding: 8px;
+
+}
+
+nav {
+  float: ;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav  ul li a:hover::before {
+  width: 100%;
+}
+
+seccion {
+  
+  width: 100%;
+  height: 100%;
+  
+}
+  
+boton {
+   background-color: #51d1f6;
+   display: block;
+   width: 100%;
+  height: 100%;
+  float: left;
+  
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #51d1f6;
+}
+</style>
+  
+  <title>Menu de Navegación</title>
+
+
+
+</head>
+<body>
+
+  <header>
+    <div class="menu">
+      
+      <div class="dropdown">
+      <button class="boton"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgk2qiYNDrPIc3rW91lG7g8gE_P-g7mdPUAQ&s"> </button>
+      <div class="dropdown-content">
+          <ul>
+            <li><a href="Perfil.html">Perfil</a></li>
+            <li style="background:red;"><a href="index.html">Chat</a></li>
+            <li><a href="Grupos.html">Grupos</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+      </div>
+     
+    </div>
+
+    <div class="seccion">
+      <br>
+      <p>
+        
+      </p>
+    </div>
+  </header>
+  
+  <div>
+    <h1 align="center">Chat</h1>
+  </div>
+  
+  <div style="background: white;
+width: 100%;
+  height: 800px;
+  ">
+    <br>
+    <p> </p>
+    
+  </div>
+
+<div  style="background: white;
+width: 100%;
+  height: 40px;
+  border: white 8px groove;">
+  <input type="text"  size="73" />
+
+
+      
+   </div>
+   
+</body>
+</html>
